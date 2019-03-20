@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <!--<item-->
+        <!--android:id="@+id/nav_item_profile"-->
+        <!--android:checked="true"-->
+        <!--android:icon="@drawable/ic_info_24px"-->
+        <!--android:title="My Profile" />-->
+        <item
+            android:id="@+id/nav_item_videos"
+            android:checked="true"
+            android:icon="@drawable/ic_info_24px"
+            android:title="My Videos" />
+        <item
+            android:id="@+id/nav_item_download"
+            android:checked="true"
+            android:icon="@drawable/ic_info_24px"
+            android:title="Download" />
+        <!--<item-->
+        <!--android:id="@+id/nav_item_settings"-->
+        <!--android:checked="true"-->
+        <!--android:icon="@drawable/ic_info_24px"-->
+        <!--android:title="Settings" />-->
+    </group>
+</menu>

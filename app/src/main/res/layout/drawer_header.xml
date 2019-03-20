@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/blue_black_light"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ugs.mobilehci.crashprevention.ui.custom.RoundedImageView
+        android:id="@+id/iv_profile_pic"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile_icon" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/TextStyle.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        style="@style/TextStyle.Title.Sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+</LinearLayout>
